@@ -1,0 +1,76 @@
+{
+    "farm": {
+        "name": "SKHT Farm"
+    },
+    "dataCollection": {
+        "liveStockCategories": [
+            {
+                "category": "Lactating Dairy Cows",
+                "count": 100
+            },
+            {
+                "category": "Lactating Dairy Buffalos",
+                "count": 100
+            }
+        ],
+        "dairyProductionDetails": {
+            "totalMilkVolume": 4784080,
+            "milkProduced": 15.69,
+            "milkFatPercent": 3.1668,
+            "milkTrueProteinPercent": 2.4626
+        },
+        "manureManagementPractices": {
+            "manureCollectionSystem": "Aerated vermifiltration system",
+            "forPartialScrapeManureFlushedOnAnnualBasisPercent": 10,
+            "noOfMonthsLivestockSpendsAtPasture": 6,
+            "noOfHoursSpentOnPasture": 4,
+            "primaryStageSolidSeparation": "Weeping wall",
+            "secondaryStageSolidSeparation": "None",
+            "storageOrTreatmentPracticeForSeparatedOrScrappedSolids": "Pasture / dirt",
+            "isFlocculantUsedToIncreaseSeparationEfficiency": "No",
+            "electricityConsumptionAssociatedWithManureManagement": 600,
+            "dieselFuelConsumptionAssociatedWithManureManagement": 500,
+            "solidSeparationBaselineEfficiencyPercent": 0
+        }        
+    },
+    "calculatedBaseLine":{
+        "totalCH4":"377",
+        "totalCO2":"133",
+        "totalManurePrint":"510",
+        "ecm":"6.59",
+        "annualEcm":"481",
+        "carbonIntensity":"1.06"
+    },
+    "interventions": [
+        {
+            "newPractice": "Installation of compost bedded pack barn",
+            "manureCollection": "Aerated vermifiltration system",
+            "ifPartialScrape": 0,
+            "pastureMonths": 6,
+            "noOfHoursSpentOnPasture": 4,
+            "primarySeparation": "Weeping wall",
+            "secondarySeparation": "None",
+            "storageTreatment": "Compost bedded pack barn",
+            "flocculantUse": "No",
+            "electricityUsed": 700,
+            "dieselUse": 600,
+            "costOfProject": 10000,
+            "interventionDescription": "Gree emission control",
+            "calculatedAnalysisResult":{
+                "totalGHG":"532",
+                "totalGHGReduction": "(22)",
+                "carbonIntenisty": "(0.05)",
+                "reductionPerAnimal": "(0.56)",
+                "ROG": "(18.85)",
+                "dieselPM": "(3.15)",
+                "NOX": "(131.45)",
+                "PM25": "(14.65)",
+                "compostProduction": "300.25",
+                "compostProductionArea": "12.9",
+                "ECM": "6.59",
+                "fossilFuelSavingsOver5years": "(500.00)",
+                "totalReductionCostPerGHGOver5years": "$ 0.00"
+            }
+        }
+    ]
+}
